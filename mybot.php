@@ -18,14 +18,21 @@ if (!is_null($events['events'])) {
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'สวัสดีครัชช'
+					'text' => 'สวัสดีค่าาาา'
 				];
 			}
-			else if($text == 'test'){
+			else if($text == 'cpu'){
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'ทดสอบๆ'
+					'text' => 'หน่วยประมวลผลกลาง ทำหน้าที่'
+				];
+			}
+			else if($text == 'nitkul'){
+				// Build message to reply back
+				$messages = [
+					'type' => 'text',
+					'text' => 'คนของซิง'
 				];
 			}
 		
