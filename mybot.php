@@ -25,7 +25,7 @@ if (!is_null($events['events'])) {
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'หน่วยประมวลผลกลาง ทำหน้าที่'
+					'text' => 'หน่วยประมวลผลกลาง ทำหน้าที่.....'
 				];
 			}
 			else if($text == 'nitkul'){
